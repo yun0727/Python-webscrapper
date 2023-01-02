@@ -1,3 +1,5 @@
+# Variables
+
 ### #2.1 Variables
 
 1. 변수 이름:
@@ -40,3 +42,22 @@ say_hello("jeongyun")
 
 1. parameter : user_name
 2. argument : jeongyun
+
+### #2.7 Multiple Parameters
+
+### #2.9 Default Parameters
+
+1. 기본값 부여하는 방법 =사용
+
+```python
+def say_hello(user_name=anoymous):
+	print("hello",user_name)
+```
+
+### #2.10 Return Values
+
+1. 함수의 바깥으로 값을 보내준다
+
+### #2.11 Return Recap
+
+1. 문자열 안에 변수 넣기
