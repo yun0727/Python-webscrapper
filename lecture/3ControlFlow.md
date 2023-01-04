@@ -24,8 +24,7 @@ import random.randint(a,b)
 
 ### #3.5 While
 
-1.
+1. while의 조건문이 False일때까지 실행
+2. 멈추는 코드 없으면(계속 True) 영원히 재생
 
 ### #3.6 Python Casino
-
-### #3.7 Recap
