@@ -9,5 +9,4 @@ if response.status_code != 200:
     print("Can't request website:")
 else:
     soup = BeautifulSoup(response.text, "html.parser")
-    print(soup.find_all('section', class_="jobs"))
-
+    job=soup.find_all('section', class_="jobs")
