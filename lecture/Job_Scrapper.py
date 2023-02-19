@@ -11,6 +11,7 @@ else:
     soup = BeautifulSoup(response.text, "html.parser")
     jobs=soup.find_all('section', class_="jobs")
     for job_section in jobs:
+        
         job_posts = job_section.find_all('li')
         job_posts.pop(-1)
         for post in job_posts:

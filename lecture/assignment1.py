@@ -16,7 +16,7 @@ def apply_tax_credits(tax_amount, tax_credits):
     return (tax_amount)*(tax_credits)
     
     
-# Don't touch anthing below this line 🙅🏻‍♂️🙅🏻‍♀️
+# Don't touch anything below this line 🙅🏻‍♂️🙅🏻‍♀️
 
 monthly_revenue = 5500000
 monthly_expenses = 2700000
